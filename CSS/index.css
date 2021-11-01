@@ -9,8 +9,11 @@ body{
 }
 .bodycontainer{
     /* width: 80%; */
-    max-width: 1000px;
-    margin: auto;
+    /* border: 2px solid rebeccapurple; */
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 10px;
+    height: 120vh;
 }
 li{
     list-style: none;
@@ -102,4 +105,34 @@ i{
     /* color: white; */
     font-size: 20px;
 
+}
+.footercontainer{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 250px;
+    /* border: 2px solid black; */
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+#footer-column1 img{
+    width: 250px;
+    border-radius: 5px;
+}
+.footercontainer ul{
+    /* border: 2px solid red; */
+    margin-left: 5%;
+    height: 180px;
+
+}
+.footercontainer ul li{
+    margin: 5px;
+    padding: 5px;
+}
+.footercontainer a{
+    color: white;
+}
+.footercontainer a:hover{
+    text-decoration: underline;
+    
 }
