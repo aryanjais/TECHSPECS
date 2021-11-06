@@ -17,7 +17,7 @@ body{
     max-width: 1200px;
     margin: 30px auto;
     padding: 10px;
-    height: 120vh;
+    min-height: 120vh;
 }
 li{
     list-style: none;
