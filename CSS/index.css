@@ -89,6 +89,7 @@ li{
     left: 0;
     background-color: white;
     border-radius: 5px;
+    z-index: 2;
 }
 #mobilelistcontainer div,#laptoplistcontainer div{
     padding: 5px 35px;
