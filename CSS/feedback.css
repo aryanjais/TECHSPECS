@@ -1,0 +1,23 @@
+.feedbackcontainer div{
+    margin: 10px;
+}
+.feedbackcontainer label{
+    display: inline-block;
+    font-size: 18px;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+}
+.feedbackcontainer input{
+    display: inline-block;
+    font-size: 18px;
+    /* width: 200px; */
+    height: 25px;
+}
+.button{
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
